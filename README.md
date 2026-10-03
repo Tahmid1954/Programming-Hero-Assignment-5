@@ -1,16 +1,16 @@
 # Programming-Hero-Assignment-5
 
-Create Readme
-You have to create a Readme.md file. and write down following questions. Dont Try to copy paste from AI Tools. Just write what you know about these. If you don't know , then search , learn , understand and then write.
-
-Answer the following questions clearly:
+Answer to the following questions:
 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll? <br>
-Ans: if getElementById is selected then only that specific id will be called
+Ans: getElementById() selects a single element using its unique id. If an element with that id is called, only that specific element will be returned.
 
-2. How do you create and insert a new element into the DOM?
+2. How do you create and insert a new element into the DOM? <br>
+Ans:
 
-3. What is Event Bubbling and how does it work?
+3. What is Event Bubbling and how does it work? <br>
+Ans:
 
-4. What is Event Delegation in JavaScript? Why is it useful?
+4. What is Event Delegation in JavaScript? Why is it useful? <br>
+Ans:
 
-5. What is the difference between preventDefault() and stopPropagation() methods?
+5. What is the difference between preventDefault() and stopPropagation() methods? <br>
