@@ -1,4 +1,4 @@
-# Programming-Hero-Assignment-5
+# Programming Hero Assignment 5
 
 Answer to the following questions:
 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll? <br>
