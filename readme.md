@@ -5,7 +5,7 @@ Answer to the following questions:
 Ans: getElementById() selects a single element using its unique id. If an element with that id is called, only that specific element will be returned.
 
 2. How do you create and insert a new element into the DOM? <br>
-Ans:
+Ans: To create a new element in DOM, i have to call createNewElement()
 
 3. What is Event Bubbling and how does it work? <br>
 Ans:
