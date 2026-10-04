@@ -16,26 +16,19 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <!-- font  awesome cdn -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"> -->
-      <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
-      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 </head>
-<body>
+<body class="max-w-full">
   <div>
-    <!-- navbar section -->
-    <div class="max-w-full h-23 flex justify-between items-center pl-5 bg-[#FFFFFF]">
+    <!-- Navbar Section -->
+    <div class="h-23 flex justify-between items-center px-5 bg-[#FFFFFF]">
       <!-- left section -->
        <div class="flex gap-3 items-center">
            <img class="w-12 h-12" src="assets/logo.png" alt="">
            <p class="font-bold leading-5 text-xl text-[#006747]">Emergency<br>Service</p>     
        </div>
        <!-- right section -->
-        <div class="flex gap-5 pr-5">
+        <div class="flex gap-5">
           <!-- heart counter -->
            <div class="bg-[#41FF6B1A] rounded-full px-8 py-2 flex gap-2 items-center  text-xl font-bold">
             <span>0</span>
@@ -48,10 +41,28 @@
            <i class="fa-solid fa-coins text-[#FCD227]"></i>
            </div>
 
-            <!-- copy button -->
-             <button class="btn btn-active bg-[#00A63E] text-lg font-medium text-[#FFFFFF] rounded-full px-7 py-6"><span>0</span>Copy</button>
-        </div>
+            <!-- copy -->
+               <div class="bg-[#00A63E] text-[#FFFFFF] rounded-full px-7 py-2 flex gap-2 items-center  text-lg font-semibold">
+            <span>0</span>
+            <p>Copy</p>
+           </div>
+        </div>    
     </div>
+    <!-- Emergency Service Directory Section -->
+<div class="bg-[#006747] text-center py-8">
+  <!-- logo -->
+  <img class="w-20 h-20 mx-auto block" src="assets/logo-dark.png" alt="Government Logo">
+  
+  <!-- heading -->
+  <h1 class="font-bold text-xl text-white mt-3">
+    Emergency Service Directory
+  </h1>
+  
+  <!-- text -->
+  <p class="font-medium text-sm text-white mt-3">
+    Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of Bangladesh
+  </p>
+  </div>
   </div>
     
 
